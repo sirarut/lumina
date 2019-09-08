@@ -12,8 +12,8 @@ const server = http.createServer(function(req, res) {
 const mysql = require('mysql');
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'yokkoy',
+    user: 'username',
+    password: 'password',
     database: 'lumina'
   });
 
